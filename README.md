@@ -3,7 +3,7 @@
 
 新功能：
 
-1. 利用 constructor 建構 invariant （約束條件）。
+1. 利用 constructor 建構 invariant （約束條件），並設計如失敗便可丟出 exception。
 
 2. 利用 destructor 來簡化資源管理 （作者自問：換句話說，是指釋放資源嗎？）
 
@@ -39,10 +39,4 @@
 
 7) 無論何時何地盡量使用 Scope 概念的 RAII, Resource Aquisition is Initialization, 資源獲取時即刻初始化。
 
-8)
 
-9)
-
-10)
-
-11)
