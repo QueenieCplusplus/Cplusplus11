@@ -35,9 +35,9 @@
 
 5) 獨立函數，即非成員函數，能 decouple 減少耦合關係。（撰寫獨立函數的方法，可利用命名空間與標準演算法。）
 
-6)
+6) 一樣是釋放資源（清理動作，或是離開某作用域），finally 的維護成本比單純使用 destruct 高出許多。
 
-7)
+7) 無論何時何地盡量使用 Scope 概念的 RAII, Resource Aquisition is Initialization, 資源獲取時即刻初始化。
 
 8)
 
